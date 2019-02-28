@@ -1,0 +1,9 @@
+
+public class LeedCodeMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LeedCode.findMedianSortedArrays(new int[]{}, new int[]{2,3});
+	}
+
+}

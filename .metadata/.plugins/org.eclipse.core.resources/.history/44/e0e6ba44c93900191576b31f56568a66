@@ -1,0 +1,16 @@
+
+public class LeedCodeMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		double ans = LeedCode.findMedianSortedArrays(new int[]{}, new int[]{2,3});
+//		System.out.println(ans);
+		
+//		String ans = LeedCode.longestPalindrome("ccc");
+//		System.out.println(ans);
+		
+		int ans = LeedCode.myAtoi(" +42");
+		System.out.println(ans);
+	}
+
+}

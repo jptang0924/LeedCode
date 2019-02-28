@@ -1,0 +1,13 @@
+
+public class LeedCodeMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		double ans = LeedCode.findMedianSortedArrays(new int[]{}, new int[]{2,3});
+//		System.out.println(ans);
+		
+		String ans = LeedCode.longestPalindrome("babad");
+		System.out.println(ans);
+	}
+
+}

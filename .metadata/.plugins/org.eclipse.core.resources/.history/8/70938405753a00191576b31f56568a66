@@ -1,0 +1,36 @@
+import java.util.List;
+
+public class LeedCodeMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		double ans = LeedCode.findMedianSortedArrays(new int[]{}, new int[]{2,3});
+//		System.out.println(ans);
+		
+//		String ans = LeedCode.longestPalindrome("ccc");
+//		System.out.println(ans);
+		
+//		int ans = LeedCode.myAtoi("-000000000000001");
+//		System.out.println(ans);
+		
+//		String ans = LeedCode.longestCommonPrefix(new String[]{"dog","d"});
+//		System.out.println(ans);
+		
+//		List<List<Integer>> ans = LeedCode.threeSum(new int[]{-1, 0});
+//		System.out.print(ans);
+		
+//		int ans = LeedCode.threeSumClosest(new int[]{-1,2,1,-4}, 1);
+//		System.out.println(ans);
+		
+//		boolean ans = LeedCode.isValid("{[]}");
+//		System.out.println(ans);
+		
+		int[] nums = new int[]{1,2,3};
+		int ans = LeedCode.removeDuplicates(nums);
+		System.out.println(ans);
+		for (int i = 0; i < ans; i++) {
+			System.out.println(nums[i]);
+		}
+	}
+
+}
