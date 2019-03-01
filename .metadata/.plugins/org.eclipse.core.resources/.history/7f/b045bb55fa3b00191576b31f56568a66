@@ -1,6 +1,5 @@
 import java.util.List;
 
-import LeedCodeTencentSortAndSearch.LeedCodeTencentSortAndSearch;
 import LeedCodeTencentSortAndSearch.SortList;
 
 public class LeedCodeMain {
@@ -53,11 +52,10 @@ public class LeedCodeMain {
 //		int ans = LeedCodeTencentNumerical.majorityElement2(new int[]{3,3,4});
 //		System.out.println(ans);
 		
-//		boolean ans = LeedCodeTencentNumerical.isPowerOfTwo(16);
-//		System.out.println(ans);
-		
-		int ans = LeedCodeTencentSortAndSearch.search(new int[]{4,5,6,7,0,1,2}, 3);
+		boolean ans = LeedCodeTencentNumerical.isPowerOfTwo(16);
 		System.out.println(ans);
+		
+		
 	}
 
 }
