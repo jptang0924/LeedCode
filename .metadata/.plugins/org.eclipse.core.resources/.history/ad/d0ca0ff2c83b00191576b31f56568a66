@@ -47,10 +47,7 @@ public class LeedCodeMain {
 //		int ans = LeedCodeTencentNumerical.reverse(-214748364);
 //		System.out.println(ans);
 		
-//		int ans = LeedCodeTencentNumerical.majorityElement2(new int[]{3,3,4});
-//		System.out.println(ans);
-		
-		boolean ans = LeedCodeTencentNumerical.isPowerOfTwo(16);
+		int ans = LeedCodeTencentNumerical.majorityElement2(new int[]{3,3,4});
 		System.out.println(ans);
 	}
 
