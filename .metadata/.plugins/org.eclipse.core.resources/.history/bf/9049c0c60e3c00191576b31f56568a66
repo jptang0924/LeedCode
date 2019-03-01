@@ -74,9 +74,9 @@ public class LeedCodeTencentSortAndSearch {
 	 * @return
 	 */
 	public static int findKthLargest(int[] nums, int k) {
-		if(nums.length<k) return 0;
+		if(nums)
         Arrays.sort(nums);
-		return nums[nums.length-k];
+		return nums.;
     }
 	
 }

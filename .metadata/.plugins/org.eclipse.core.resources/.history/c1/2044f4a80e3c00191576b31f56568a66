@@ -1,7 +1,5 @@
 package LeedCodeTencentSortAndSearch;
 
-import java.util.Arrays;
-
 public class LeedCodeTencentSortAndSearch {
 
 	/**
@@ -74,9 +72,8 @@ public class LeedCodeTencentSortAndSearch {
 	 * @return
 	 */
 	public static int findKthLargest(int[] nums, int k) {
-		if(nums.length<k) return 0;
-        Arrays.sort(nums);
-		return nums[nums.length-k];
+        
+		return 0;
     }
 	
 }
